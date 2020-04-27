@@ -8,6 +8,6 @@ var func = require('../funciones.js');
 
 // Test
 it('comprobar función buscanombre', function() {
-	assert.equal(buscanombre("hola\nmundo\nantonio","antonio",2), "es correcto");
-	assert.equal(buscanombre("hola\nmundo\nantonio","pedro",2), "no es correcto");
+	assert.equal(func.buscanombre("hola\nmundo\nantonio","antonio",2), "es correcto");
+	assert.equal(func.buscanombre("hola\nmundo\nantonio","pedro",2), "no es correcto");
 });
