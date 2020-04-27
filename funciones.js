@@ -9,7 +9,7 @@ console.log(buscanombre("hola\nmundo\nantonio","antonio",2));
 
 
 /* Función buscar nombre en la posicion de una cadena */
-function buscanombre (texto, nombre, elemento) {
+var buscanombre = function buscanombre (texto, nombre, elemento) {
 	let nombres = texto.split(/\n/);
 	return (nombres[elemento]==nombre)?"es correcto":"no es correcto";
 }; 
